@@ -1,0 +1,31 @@
+
+.tsb-casing {
+  background-color: #f60;
+  border-width: 1px 1px 1px 1px;
+  width: 1em;
+  border-radius: 10px;
+  position: relative;
+}
+
+.tsb-state {
+  width: 20px;
+  height: 1em;
+  position: absolute;
+}
+
+.tsb-ball {
+  background-color: #fff;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
+  position: absolute;
+  vertical-align: central;
+  left: 0px;
+}
+
+.slick-dotted.slick-slider{
+  margin: 0;
+}
+.slick-dots{
+  display: none;
+}

@@ -1,0 +1,8 @@
+ .but-container{
+   position: fixed;
+   top: 48vh;
+   left: 1vh;
+   z-index: 99;
+   height: 60px;
+   width: 30px;
+ }

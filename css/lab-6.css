@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  overflow: hidden; }
+
+.but-container {
+  position: fixed;
+  left: 5vh;
+  z-index: 99;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+.section-1 {
+  width: 100%;
+  height: 65vw;
+  background: url("https://www.ikwex.com/img/img_article/9.1.jpg") no-repeat fixed left bottom; }
+
+.section-1 .container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(26, 158, 177, 0.44);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Patua One";
+  color: #fff;
+  letter-spacing: 4px;
+  text-shadow: -6px -4px 0px #133538; }
+
+.logo {
+  text-transform: uppercase;
+  font-size: 600%;
+  line-height: 200%;
+  text-decoration: underline; }
+
+.logo-2 {
+  text-decoration: overline; }
+
+.text {
+  font-size: 200%; }
+
+.container-switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: auto;
+  height: 30vw; }
+
+.tab-form.active {
+  display: none; }
+
+.tab-form {
+  display: block; }
+
+label.switch {
+  background-color: #717171;
+  color: #fff;
+  font-weight: 600;
+  font-size: 150%;
+  padding: 5% 10%;
+  display: inline-block;
+  margin-bottom: -1px;
+  cursor: pointer; }
+
+label.switch.active, input[name="tabs"]:checked + label {
+  background-color: #133538;
+  color: #fff; }
+
+.tab-form {
+  width: 20vw;
+  height: 25vw;
+  background-color: #133538;
+  color: #fff;
+  font-size: 100%;
+  padding: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: -7px -3px 13px 4px #04040470;
+  box-shadow: -7px -3px 13px 4px #04040470; }
+
+.tab-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%; }
+
+.enter {
+  width: 20vw;
+  height: 35vh; }
+
+.tab-form input {
+  width: 100%;
+  height: 10%; }
+
+.enter input {
+  width: 100%;
+  height: 20%; }
+
+.tab-form input[type="submit"] {
+  background-color: #f60;
+  border: 2px solid #f60;
+  color: #133538;
+  font-family: "Patua One";
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 150%;
+  height: 15%; }
+
+.section-2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.text-description {
+  display: block;
+  text-align: justify;
+  width: 50%; }
+
+.text-headline {
+  font-family: "Patua One";
+  color: #22a6b9;
+  font-size: 3.5vw; }
+
+.main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+
+.block {
+  width: 15%;
+  margin-top: 5%; }
+
+.block .text {
+  font-family: "Patua One";
+  color: #22a6b9;
+  font-size: 2.2vw;
+  padding: 3% 0; }
+
+.block .description {
+  margin-bottom: 50%; }
+
+.description, .text-description {
+  font-size: 1.2vw;
+  margin: 1% 0% 5% 0%; }
+
+.img {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprite.svg"); }
+
+.block1, .block2, .block3, .block4 {
+  width: 80%;
+  height: 65%; }
+
+.block1 {
+  background-position: -425px 0; }
+
+.block2 {
+  background-position: -189px 9px; }
+
+.block3 {
+  background-position: 0 -216px; }
+
+.block4 {
+  background-position: 26px 20px; }
+
+.footer {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-radial-gradient(#333333, #000);
+  background: -o-radial-gradient(#333333, #000);
+  background: radial-gradient(#333333, #000);
+  font-family: "Patua One";
+  color: #fff;
+  letter-spacing: 4px;
+  line-height: 400%;
+  text-shadow: -6px -4px 0px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+  border: 50px solid transparent; }
+
+.logo-footer {
+  text-transform: uppercase;
+  font-size: 600%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: underline; }
+
+.logo-footer-2 {
+  text-decoration: overline; }
+
+.main-connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 150%; }
+
+@media (max-width: 1024px) {
+  .tab-form input[type="submit"] {
+    letter-spacing: 0.5px;
+    font-size: 105%; } }
+
+@media (max-width: 768px) {
+  .section-1 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .logo, .logo-footer {
+    font-size: 8vh; }
+  .text, .main-connect {
+    font-size: 3vh; }
+  .tab-form {
+    width: 70vw;
+    height: 45vh; }
+  .enter {
+    width: 70vw;
+    height: 35vh; }
+  label.switch {
+    padding: 2vh 6vw; }
+  .container-switch {
+    height: auto; }
+  .main-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .block {
+    width: auto;
+    margin-top: 0; }
+  .block .description {
+    margin-bottom: auto; }
+  .description, .text-description {
+    margin: auto; }
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 100%; } }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .logo-box {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    letter-spacing: normal;
+    padding: 5% 5% 0 0; }
+  .tab-form {
+    padding: 5%; } }
